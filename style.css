@@ -27,3 +27,25 @@ body{
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
 }
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(225 64 64);
+}
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color:#0e0e0e!important;
+}
+.navbar-brand {
+    color: #EDEAE0;
+}
+.navbar-brand.active ,.navbar-brand:visited,
+.navbar-brand:hover  {
+    color: #EDEAE0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #EDEAE0;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #EDEAE0;
+}
